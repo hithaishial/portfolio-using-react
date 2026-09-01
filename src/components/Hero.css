@@ -12,6 +12,23 @@
   max-width: 750px;
 }
 
+/* --- ADDED: Profile Image Styles --- */
+.profile-image-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-img {
+  width: 150px; /* Adjust width to resize your photo */
+  height: 150px; /* Keeps height equal to width */
+  border-radius: 50%; /* Makes image perfectly circular */
+  object-fit: cover; /* Prevents image stretching */
+  border: 3px solid var(--accent-primary); /* Uses your primary accent color */
+  box-shadow: 0 8px 24px rgba(6, 182, 212, 0.25); /* Subtle glow matching your gradient */
+}
+/* ---------------------------------- */
+
 .badge {
   background: rgba(6, 182, 212, 0.1);
   color: var(--accent-primary);
