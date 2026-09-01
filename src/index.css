@@ -1,0 +1,27 @@
+:root {
+  --bg-main: #0f172a;       /* Dark slate background */
+  --bg-card: #1e293b;       /* Slightly lighter slate for cards */
+  --text-main: #f8fafc;     /* Bright white text */
+  --text-muted: #94a3b8;    /* Muted gray text */
+  --accent-primary: #06b6d4; /* Vibrant Cyan */
+  --accent-secondary: #10b981; /* Emerald Green */
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

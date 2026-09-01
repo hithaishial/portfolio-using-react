@@ -1,0 +1,35 @@
+.contact-section {
+  padding: 90px 24px;
+  text-align: center;
+}
+
+.contact-subtitle {
+  color: var(--text-muted);
+  margin-bottom: 40px;
+}
+
+.contact-cards {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: var(--bg-card);
+  padding: 24px 40px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  min-width: 240px;
+}
+
+.card h3 {
+  font-size: 1rem;
+  color: var(--accent-primary);
+  margin-bottom: 8px;
+}
+
+.card a {
+  color: var(--text-main);
+  font-weight: 500;
+}
